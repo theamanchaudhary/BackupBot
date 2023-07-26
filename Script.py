@@ -192,12 +192,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """
+         {file_name}
 
-▫️📂Fɪʟᴇsizᴇ : {file_size}
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+⚙️ sɪᴢᴇ : {file_size}""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
