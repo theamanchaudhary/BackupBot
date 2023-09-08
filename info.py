@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27402720'))
-API_HASH = environ.get('API_HASH', '38f0682dce493e07863bc6783016e98d')
+API_ID = int(environ.get('API_ID', '28271319'))
+API_HASH = environ.get('API_HASH', '84d8b635a127218158581c0fd8225770')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6445908204:AAFzp3UTBh7YsXJcZiqgJjAj7gpa4zUBmdQ")
 
 # Bot settings
