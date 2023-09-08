@@ -23,9 +23,9 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('‼️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ‼️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('👻 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 👻', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -41,9 +41,6 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇs ⚡', url=CHNL_LNK),
-                    InlineKeyboardButton('🍿 ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇ 🍿', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🍄 ʜᴇʟᴘ 🍄', callback_data='help'),
                     InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
@@ -92,9 +89,6 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇs ⚡', url=CHNL_LNK),
-                    InlineKeyboardButton('🍿 ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇ 🍿', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🍄 ʜᴇʟᴘ 🍄', callback_data='help'),
                     InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
