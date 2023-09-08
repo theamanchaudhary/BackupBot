@@ -102,7 +102,7 @@ Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUser ‼👻
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
